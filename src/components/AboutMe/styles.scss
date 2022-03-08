@@ -1,0 +1,26 @@
+.aboutSection {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: rgb(247, 247, 247);
+}
+
+.info {
+    width: 600px;
+    text-align: left;
+}
+
+.info p:nth-child(1) {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 10px;
+    color: rgb(121, 121, 121);
+}
+
+.info p {
+    line-height: 1.3rem;
+    color: rgb(180, 180, 180);
+}
